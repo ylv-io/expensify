@@ -10,7 +10,7 @@ export const Header = (props) => (
     <h1>Expensify</h1>
     <ul>
       <li>
-        <NavLink to="/" activeClassName="is-active" exact={true}>home</NavLink>
+        <NavLink to="/dashboard" activeClassName="is-active" exact={true}>dashboard</NavLink>
       </li>
       <li>
         <NavLink to="/create" activeClassName="is-active" exact={true}>create</NavLink>
